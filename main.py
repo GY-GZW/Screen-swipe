@@ -55,12 +55,12 @@ class AutoTyper:
         # 帮助菜单
         help_menu = Menu(menubar, tearoff=0)
         menubar.add_cascade(label="帮助", menu=help_menu)
-        help_menu.add_command(label="帮助", command=lambda: messagebox.showinfo("帮助", "请访问果园的网站帮助"))
+        help_menu.add_command(label="帮助", command=lambda: messagebox.showinfo("帮助", "请访问https://github.com/GY-GZW/Screen-swipe/issues\n您可以把问题提交到这里"))
 
         # 关于菜单
         about_menu = Menu(menubar, tearoff=0)
         menubar.add_cascade(label="关于", menu=about_menu)
-        about_menu.add_command(label="关于", command=lambda: messagebox.showinfo("关于", "果园编程制作"))
+        about_menu.add_command(label="关于", command=lambda: messagebox.showinfo("关于", "果园编程(原果园工作室)制作"))
         # 更新菜单
         up_menu = Menu(menubar, tearoff=0)
         menubar.add_cascade(label="更新", menu=up_menu)
